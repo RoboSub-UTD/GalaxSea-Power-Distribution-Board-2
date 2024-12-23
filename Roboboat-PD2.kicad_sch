@@ -2195,16 +2195,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 63.5) (xy 52.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "116d45ff-09af-40d6-96da-95c3b3d403b8")
-	)
-	(wire
-		(pts
 			(xy 102.87 137.16) (xy 102.87 139.7)
 		)
 		(stroke
@@ -2463,6 +2453,16 @@
 		)
 		(uuid "449c944d-b079-4867-9d60-967e1c8521bc")
 	)
+	(wire
+		(pts
+			(xy 52.07 62.23) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4726f2d2-13e4-429f-8b60-4edebbefbfc1")
+	)
 	(polyline
 		(pts
 			(xy 93.98 76.2) (xy 93.98 182.88)
@@ -2505,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 63.5)
+			(xy 52.07 55.88) (xy 52.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2913,6 +2913,16 @@
 		)
 		(uuid "b9ee32ce-190c-4e62-bba6-32a63ff1f49b")
 	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6e201f-ea01-4a8a-aac6-de63ced8def9")
+	)
 	(polyline
 		(pts
 			(xy 93.98 182.88) (xy 11.43 182.88)
@@ -2922,16 +2932,6 @@
 			(type dash)
 		)
 		(uuid "c31329f3-f05b-426e-be14-5544d316c91b")
-	)
-	(wire
-		(pts
-			(xy 52.07 55.88) (xy 52.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3420ed7-34a4-4c82-8925-f9ae19773839")
 	)
 	(polyline
 		(pts
@@ -3601,6 +3601,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 52.07 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "206bf291-26dc-425a-90d0-50a13046dd19")
+		(property "Reference" "F1"
+			(at 50.292 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 48.514 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:0ZCG_BEL"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e322e4c1-4a7d-4976-a158-9c9e32c18cfd")
+		)
+		(pin "2"
+			(uuid "d89955b7-b556-461d-9266-df15261433df")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 62.23 154.94 0)
 		(unit 1)
@@ -4087,7 +4154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "14.4V"
+		(property "Value" "+14.4V"
 			(at 66.04 36.83 0)
 			(effects
 				(font
@@ -4129,73 +4196,6 @@
 			(project ""
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 52.07 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ccc288e-9dbf-4728-b033-5dbb0de74b55")
-		(property "Reference" "F1"
-			(at 50.292 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 48.514 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:0ZCG_BEL"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66dde394-05a0-4192-9d08-e685187f7a0c")
-		)
-		(pin "2"
-			(uuid "c3188e3e-1a64-462c-a7e2-16f24fbe9229")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "14.4V"
+		(property "Value" "+14.4V"
 			(at 123.19 127 0)
 			(effects
 				(font
@@ -6159,7 +6159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 102.87 127 0)
 			(effects
 				(font
@@ -6893,7 +6893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "+12V"
 			(at 49.53 85.09 0)
 			(effects
 				(font
