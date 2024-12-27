@@ -1994,6 +1994,12 @@
 		(uuid "45d3758a-f855-4baa-adcb-ff2cf95fc4b7")
 	)
 	(junction
+		(at 52.07 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "580b3db9-7ad1-4590-a636-7385b051e858")
+	)
+	(junction
 		(at 49.53 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2016,12 +2022,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d22c427-0fc8-40ec-be14-38b104e62481")
-	)
-	(junction
-		(at 52.07 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e19548b-91f8-4ff5-97a8-724170252fb9")
 	)
 	(junction
 		(at 49.53 116.84)
@@ -2112,16 +2112,6 @@
 			(type default)
 		)
 		(uuid "00dceee1-52a4-4b5f-bd3a-7845a20beb53")
-	)
-	(wire
-		(pts
-			(xy 52.07 63.5) (xy 41.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02153eae-7869-4c58-bf28-f736c3792c4e")
 	)
 	(wire
 		(pts
@@ -2365,6 +2355,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 63.5) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331f0567-76c2-439a-adc0-3920e7b7f91e")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365a118f-3333-4243-8a06-6da6090da218")
+	)
+	(wire
+		(pts
 			(xy 49.53 146.05) (xy 49.53 154.94)
 		)
 		(stroke
@@ -2453,16 +2463,6 @@
 		)
 		(uuid "449c944d-b079-4867-9d60-967e1c8521bc")
 	)
-	(wire
-		(pts
-			(xy 52.07 62.23) (xy 52.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4726f2d2-13e4-429f-8b60-4edebbefbfc1")
-	)
 	(polyline
 		(pts
 			(xy 93.98 76.2) (xy 93.98 182.88)
@@ -2502,16 +2502,6 @@
 			(type default)
 		)
 		(uuid "51ea497c-5c4f-4a50-a1f2-25138076506b")
-	)
-	(wire
-		(pts
-			(xy 52.07 55.88) (xy 52.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "555931e9-a9bb-425c-9023-991a4227c64e")
 	)
 	(wire
 		(pts
@@ -2915,13 +2905,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 63.5) (xy 66.04 63.5)
+			(xy 64.77 63.5) (xy 66.04 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be6e201f-ea01-4a8a-aac6-de63ced8def9")
+		(uuid "be6c99b5-cbf7-4d61-a2ec-2cb13dec3622")
 	)
 	(polyline
 		(pts
@@ -3002,6 +2992,16 @@
 			(type dash)
 		)
 		(uuid "d0ed5c2b-56e4-4458-8efe-904615eeda08")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4321932-39de-4823-8ea3-d8d15eca1ced")
 	)
 	(wire
 		(pts
@@ -3595,73 +3595,6 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 52.07 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "206bf291-26dc-425a-90d0-50a13046dd19")
-		(property "Reference" "F1"
-			(at 50.292 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 48.514 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:0ZCG_BEL"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 52.07 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e322e4c1-4a7d-4976-a158-9c9e32c18cfd")
-		)
-		(pin "2"
-			(uuid "d89955b7-b556-461d-9266-df15261433df")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -4930,6 +4863,73 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 62.23 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d10c7c8-9852-4da4-81ab-0e07ac4ab043")
+		(property "Reference" "F1"
+			(at 62.484 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 62.484 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:0ZCG_BEL"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4523ee06-122e-4278-9294-480392613580")
+		)
+		(pin "2"
+			(uuid "dbb45843-d3f8-4f97-a09d-111e823368f3")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "F1")
 					(unit 1)
 				)
 			)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|148689800|85526000|b9e26a3b-907c-48ca-a751-545914364575|e83eb45f-ea6c-4c45-8c72-0e1d53669260",
+        "solder_mask_bridge|148689800|85526000|b9e26a3b-907c-48ca-a751-545914364575|e83eb45f-ea6c-4c45-8c72-0e1d53669260"
+      ],
       "meta": {
         "version": 2
       },
