@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAP_CL31_SAM"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7aeffd56-2fea-42cd-9625-d87f23800a78")
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226MOCLNNC_Spec.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6992b8c-fd09-4c62-878c-a7f8f4f185c7")
@@ -495,7 +495,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5acfd55-de56-4854-bafc-e589eac30495")
@@ -9558,7 +9558,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAP_CL31_SAM"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "473b1b38-774e-4be1-b0b7-2ef659ed4361")
@@ -9570,7 +9570,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226MOCLNNC_Spec.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37c40b5b-cd1c-41de-9b22-013836cebf2d")
@@ -9582,7 +9582,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eee674e5-7610-442e-b0e0-a6b87fc0af8b")
