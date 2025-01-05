@@ -4154,7 +4154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RC0402N_PAN"
+		(property "Footprint" "footprints:RC0402N_YAG"
 			(at 122.174 42.926 90)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CL05B104KA5NNNC"
+		(property "Footprint" "footprints:CAP_CL05B104KA5NNNC_SAM"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -6493,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CL05B104KA5NNNC"
+		(property "Footprint" "footprints:CAP_CL05B104KA5NNNC_SAM"
 			(at 161.29 55.88 0)
 			(effects
 				(font
