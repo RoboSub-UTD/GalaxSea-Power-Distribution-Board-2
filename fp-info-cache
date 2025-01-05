@@ -1,4 +1,4 @@
-24205855792091799
+24216272338260083
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97986,9 +97986,51 @@ AOZ2369QI-11
 17
 17
 footprints
+CAP_CL05B104KA5NNNC_SAM
+
+CL05B104KA5NNNC 
+0
+2
+2
+footprints
+CAP_CL31_SAM
+
+CL31B104KBCNNNC 
+0
+2
+2
+footprints
+CAP_CL32_SAM
+
+CL32A106KAULNNE 
+0
+2
+2
+footprints
 CUI_PJ-002B
 
 
 0
 3
 3
+footprints
+IND_PA0513_PUL
+
+PA0513.441NLT 
+0
+2
+2
+footprints
+RC0402N_YAG
+
+RC0402JR-0710KL 
+0
+2
+2
+footprints
+RES_TTD1002F_KOA
+
+RK73H1JTTD1002F 
+0
+2
+2
