@@ -1812,6 +1812,15 @@
 		(at 127 92.71)
 		(uuid "9b219fbd-ac9c-4ef8-88c4-83224c885f73")
 	)
+	(bus_entry
+		(at 71.12 20.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2496865-0bac-40cc-9527-493b92438bf4")
+	)
 	(wire
 		(pts
 			(xy 167.64 64.77) (xy 163.83 64.77)
@@ -3545,7 +3554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "190k"
+		(property "Value" "4.7k"
 			(at 179.07 76.1999 0)
 			(effects
 				(font
@@ -3554,7 +3563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RES_TTD1002F_KOA"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -4145,7 +4154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "680"
 			(at 124.206 44.196 0)
 			(effects
 				(font
@@ -4154,7 +4163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 122.174 42.926 90)
 			(effects
 				(font
@@ -4689,7 +4698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAP_CL05B104KA5NNNC_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -5951,7 +5960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 179.07 82.5499 0)
 			(effects
 				(font
@@ -5960,7 +5969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RES_TTD1002F_KOA"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 81.28 0)
 			(effects
 				(font
@@ -6086,7 +6095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND"
 			(at 124.46 85.344 0)
 			(effects
 				(font
@@ -6493,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CAP_CL05B104KA5NNNC_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 161.29 55.88 0)
 			(effects
 				(font
