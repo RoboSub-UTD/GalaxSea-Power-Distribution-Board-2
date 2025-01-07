@@ -3160,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAP_CL31_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 172.72 49.53 0)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAP_CL31_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -5238,7 +5238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAP_CL32_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 193.04 77.47 0)
 			(effects
 				(font

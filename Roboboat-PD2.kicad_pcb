@@ -2222,7 +2222,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.65 -90)
+			(at 0 1.7 -90)
 			(layer "F.SilkS")
 			(uuid "d6c08553-6549-42b1-b790-9df69472c7d6")
 			(effects
@@ -2435,7 +2435,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 0 90)
+			(at -2.7 -3.5 90)
 			(layer "F.SilkS")
 			(uuid "46e8ac0b-8d65-4de5-a0b1-dca8f0f44f04")
 			(effects
@@ -6088,7 +6088,7 @@
 		(uuid "acd9ae98-9454-4636-b966-befe1d998394")
 		(at 183.3025 102.385)
 		(property "Reference" "U1"
-			(at 2.3475 3.345 90)
+			(at 2.1975 3.415 180)
 			(layer "F.SilkS")
 			(uuid "12511afa-d5fb-4c2d-82f5-3b5e86f4cda3")
 			(effects
@@ -7697,7 +7697,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0.1 0.1 90)
+			(at 0 1.7 90)
 			(layer "F.SilkS")
 			(uuid "bb7cee0d-9c34-4546-938d-87bc2801bc79")
 			(effects
@@ -8628,7 +8628,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 0 90)
+			(at -1.225 1.8 90)
 			(layer "F.SilkS")
 			(uuid "5ced736b-da43-480b-a5b9-400b93158a97")
 			(effects
@@ -9185,6 +9185,16 @@
 		(layer "B.SilkS")
 		(uuid "aa214870-3bee-45ea-93fa-ef207c3a6bd9")
 	)
+	(gr_line
+		(start 176 105.3)
+		(end 177.9 104.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b60779c-cc05-4b2b-bede-560f46945247")
+	)
 	(gr_rect
 		(start 114 97)
 		(end 165 121.5)
@@ -9198,7 +9208,7 @@
 	)
 	(gr_rect
 		(start 170.7 61)
-		(end 219.39 95)
+		(end 219.39 94.3)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -9209,7 +9219,7 @@
 	)
 	(gr_rect
 		(start 95 61)
-		(end 168.95 95)
+		(end 168.95 95.1)
 		(stroke
 			(width 0.2)
 			(type dash)
@@ -9217,16 +9227,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "b05fcf16-250d-455c-8db1-b59782b5b7b7")
-	)
-	(gr_line
-		(start 184.84 105.74)
-		(end 183.58 105.23)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d446b86b-8522-4f44-910c-3b8bebaf81d7")
 	)
 	(gr_rect
 		(start 83.25 59.25)
@@ -9240,7 +9240,7 @@
 		(uuid "4b137886-7f51-4190-b825-6076a819cbad")
 	)
 	(gr_text "Bucky"
-		(at 110.3 88.8 180)
+		(at 104.1 90.1 0)
 		(layer "F.SilkS")
 		(uuid "335cc07a-eb57-4a83-bc9b-124a590d1d72")
 		(effects
@@ -9278,7 +9278,7 @@
 		)
 	)
 	(gr_text "INPUT"
-		(at 200 91.7 180)
+		(at 189.9 94.1 0)
 		(layer "F.SilkS")
 		(uuid "69a13f43-2089-401a-879b-767a9470bd3c")
 		(effects
@@ -9291,7 +9291,7 @@
 		)
 	)
 	(gr_text "12V"
-		(at 160 89 180)
+		(at 154.9 90.3 0)
 		(layer "F.SilkS")
 		(uuid "6d863378-8349-4b21-a30b-5d77ea52be5c")
 		(effects
@@ -9304,7 +9304,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 209.1 89 180)
+		(at 206.1 90.5 0)
 		(layer "F.SilkS")
 		(uuid "9fcbe2fb-ecd1-448f-8b78-ce92aceb4c54")
 		(effects
@@ -9317,7 +9317,7 @@
 		)
 	)
 	(gr_text "14.4V"
-		(at 186.2 88.8 180)
+		(at 180.4 90.5 0)
 		(layer "F.SilkS")
 		(uuid "a9c3a4c2-66ee-40c0-ad7f-bc45bf56d3ee")
 		(effects
@@ -9330,7 +9330,7 @@
 		)
 	)
 	(gr_text "OUTPUT"
-		(at 138 91.5 180)
+		(at 127 93.5 0)
 		(layer "F.SilkS")
 		(uuid "e7f57792-9b86-447d-9e5f-3972d9628254")
 		(effects
@@ -10392,8 +10392,8 @@
 		)
 		(polygon
 			(pts
-				(xy 182.9 104.4) (xy 182.9 110.4) (xy 178.2 110.4) (xy 178.2 104.4) (xy 178.2 104.4) (xy 178.8 104.4)
-				(xy 180.6 104.4) (xy 182 104.4)
+				(xy 182.9 104.4) (xy 182.9 110.4) (xy 178.2 110.4) (xy 178.2 104.4) (xy 178.8 104.4) (xy 180.6 104.4)
+				(xy 182 104.4)
 			)
 		)
 		(filled_polygon
@@ -10496,7 +10496,7 @@
 		)
 		(polygon
 			(pts
-				(xy 175.5 99.1) (xy 175.5 95.9) (xy 180 95.9) (xy 180 98.2) (xy 180 98.2) (xy 180 99.1)
+				(xy 175.5 99.1) (xy 175.5 95.9) (xy 180 95.9) (xy 180 98.2) (xy 180 99.1)
 			)
 		)
 		(filled_polygon
