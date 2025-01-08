@@ -4238,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a1e6686-757a-43b8-bdba-7a7d3c68df1e")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 104.14 41.9099 90)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 102.87 43.18 0)
 			(effects
 				(font
@@ -4292,7 +4292,7 @@
 		(instances
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Value" "440nH"
+		(property "Value" "150uH"
 			(at 170.18 62.23 90)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IND_PA0513_PUL"
+		(property "Footprint" "footprints:IND_SRP1265A-1R5M"
 			(at 170.18 64.77 0)
 			(effects
 				(font
