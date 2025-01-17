@@ -361,6 +361,125 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
@@ -1339,6 +1458,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -2091,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 118.11 66.04)
+			(xy 104.14 66.04) (xy 118.11 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2189,6 +2390,16 @@
 		)
 		(uuid "190b6b73-2cd8-458c-bb91-501583e33793")
 	)
+	(polyline
+		(pts
+			(xy 252.73 62.23) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "19d4dfd1-15fa-4630-b3a6-e38c016f0414")
+	)
 	(wire
 		(pts
 			(xy 176.53 83.82) (xy 166.37 83.82)
@@ -2238,6 +2449,16 @@
 			(type default)
 		)
 		(uuid "26be5bd9-5f60-4668-ae6d-19729f326ed2")
+	)
+	(wire
+		(pts
+			(xy 260.35 22.86) (xy 260.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e9f192-7f73-4fbd-bdb3-d7cf4c481924")
 	)
 	(wire
 		(pts
@@ -2328,6 +2549,16 @@
 			(type default)
 		)
 		(uuid "331f0567-76c2-439a-adc0-3920e7b7f91e")
+	)
+	(polyline
+		(pts
+			(xy 222.25 36.83) (xy 284.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "34cee729-1ff1-4d41-b4e4-2edb8339b9df")
 	)
 	(wire
 		(pts
@@ -2458,6 +2689,16 @@
 			(type default)
 		)
 		(uuid "5072d327-b74b-428e-867f-4ca34d8d651e")
+	)
+	(wire
+		(pts
+			(xy 227.33 44.45) (xy 227.33 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d21c63-e336-4f45-9553-636ed5ab607f")
 	)
 	(wire
 		(pts
@@ -2869,6 +3110,16 @@
 		)
 		(uuid "ac1d7a5d-c16d-4e01-93d8-f80763d8c3f6")
 	)
+	(polyline
+		(pts
+			(xy 222.25 62.23) (xy 252.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b1018e3e-8d4e-41bc-9bbf-a404931066b0")
+	)
 	(wire
 		(pts
 			(xy 57.15 148.59) (xy 57.15 149.86)
@@ -2908,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "b9ee32ce-190c-4e62-bba6-32a63ff1f49b")
+	)
+	(polyline
+		(pts
+			(xy 252.73 12.7) (xy 252.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c005c33d-7e3d-4c57-bc33-d0c855aaf6f7")
 	)
 	(polyline
 		(pts
@@ -2978,6 +3239,16 @@
 			(type dash)
 		)
 		(uuid "d0ed5c2b-56e4-4458-8efe-904615eeda08")
+	)
+	(wire
+		(pts
+			(xy 274.32 22.86) (xy 274.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24694ce-747c-4efc-a381-90888e625ba4")
 	)
 	(wire
 		(pts
@@ -3119,6 +3390,18 @@
 		)
 		(uuid "fcc5158e-ee47-46c3-a1d9-d9a972d6c31e")
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 268.732 17.272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "083dd02d-ca17-428f-9f80-b07a90048038")
+	)
 	(text "14.4V Outputs"
 		(exclude_from_sim no)
 		(at 55.118 28.194 0)
@@ -3130,6 +3413,18 @@
 			)
 		)
 		(uuid "1e605e4f-90f5-4477-8656-103b532a7394")
+	)
+	(text "PGOOD Out"
+		(exclude_from_sim no)
+		(at 235.712 40.132 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4f43dbe1-48ea-45e4-a1a7-ed2c75da28f2")
 	)
 	(text "12V Outputs"
 		(exclude_from_sim no)
@@ -3166,6 +3461,115 @@
 			)
 		)
 		(uuid "c775bdcd-af54-4b05-88b1-1e35078582fe")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 237.49 17.272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "cd441bcc-2188-4835-adce-2fd3d9acaf33")
+	)
+	(label "PGOOD"
+		(at 104.14 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ce6d994-2967-41ab-a368-e8502046a2c1")
+	)
+	(label "PGOOD"
+		(at 260.35 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41a9d31f-7294-4cc7-b88f-497f9742d3b2")
+	)
+	(label "PGOOD"
+		(at 227.33 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6edbffe6-bba2-4af3-a1d2-b640f41749d6")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 227.33 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c3d49c-2588-4202-b343-be3e983ad8dc")
+		(property "Reference" "J16"
+			(at 227.076 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGOOD"
+			(at 227.584 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B1B-XH-AM_1x01_P2.50mm_Vertical"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9de7837-2c4c-4368-828f-cc38814beb6d")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4170,6 +4574,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 274.32 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a209d3-6f13-487b-9249-3c6a65a3c110")
+		(property "Reference" "J18"
+			(at 275.59 28.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND TP"
+			(at 271.018 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 274.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 274.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6afdf5d0-8ce0-4040-8577-6e1558094cc0")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 132.08 0)
 		(unit 1)
@@ -4300,6 +4770,70 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 31.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5acb6eed-9dfb-4e25-949a-93db1fef35cd")
+		(property "Reference" "H4"
+			(at 243.84 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 243.84 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5443,6 +5977,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 31.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a15e5ee8-756d-4a74-a678-e81d1d2b06dd")
+		(property "Reference" "H3"
+			(at 231.14 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 231.14 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 118.11 68.58 180)
 		(unit 1)
@@ -5504,6 +6102,72 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 260.35 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae356c0a-3237-437d-9045-675dac745445")
+		(property "Reference" "J17"
+			(at 261.62 28.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PGOOD TP"
+			(at 255.524 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afba2d69-e91f-4419-b12f-29178d5a8afa")
+		)
+		(instances
+			(project ""
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5980,6 +6644,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf5cdc7e-daaa-45f1-acd3-1e17412d65b8")
+		(property "Reference" "H1"
+			(at 231.14 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 231.14 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 41.91 50.8 90)
 		(unit 1)
@@ -6173,6 +6901,71 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caabfa8b-29ab-4c2f-9d0d-32f8f28426dd")
+		(property "Reference" "#PWR024"
+			(at 274.32 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 277.368 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af6ed0b-2d3d-4b92-8b0e-9f81c698014e")
+		)
+		(instances
+			(project ""
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6579,70 +7372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 109.22 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de0fe0a6-af3f-4ba3-a168-7c2a521abe3c")
-		(property "Reference" "J16"
-			(at 109.22 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGOOD"
-			(at 109.22 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B1B-XH-AM_1x01_P2.50mm_Vertical"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "808ca1dd-f301-48de-9e5e-a8d4303278be")
-		)
-		(instances
-			(project ""
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 62.23 110.49 0)
 		(unit 1)
@@ -6840,6 +7569,70 @@
 			(project ""
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 241.3 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec4c1c9a-267e-41a2-8b88-17fb0ea24765")
+		(property "Reference" "H2"
+			(at 243.84 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 243.84 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 241.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 241.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7855,7 @@
 				)
 			)
 		)
-		(property "Value" "AOZ2367QI-11"
+		(property "Value" "AOZ2379QI"
 			(at 141.605 43.18 0)
 			(effects
 				(font
