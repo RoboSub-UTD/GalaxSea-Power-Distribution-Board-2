@@ -2069,15 +2069,6 @@
 		(at 127 92.71)
 		(uuid "9b219fbd-ac9c-4ef8-88c4-83224c885f73")
 	)
-	(bus_entry
-		(at 71.12 20.32)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2496865-0bac-40cc-9527-493b92438bf4")
-	)
 	(wire
 		(pts
 			(xy 167.64 64.77) (xy 163.83 64.77)
@@ -3667,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:FUSE_0ZCF0075AF2C"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 52.07 60.96 0)
 			(effects
 				(font
