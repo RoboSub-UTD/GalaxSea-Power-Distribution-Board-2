@@ -375,7 +375,7 @@
 			)
 		)
 		(property "Footprint" "footprints:XT90_V"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5f279bb-4cc1-4f3b-afec-ea970da27ab5")
@@ -387,7 +387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5eb030e-8694-4e27-a049-59b9809288f7")
@@ -399,7 +399,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c82ca07b-68a9-47a8-8f91-1023f59b1101")
@@ -1593,7 +1593,7 @@
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J3"
-			(at 12.75 -0.15 180)
+			(at 11.2 -0.15 180)
 			(layer "F.SilkS")
 			(uuid "289c3d46-bcea-4bab-867d-2b4a862e5abc")
 			(effects
@@ -2217,7 +2217,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "bcb76633-deda-455c-8d83-5e064e748800")
 			(effects
@@ -2228,7 +2228,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "174a49a1-fc7a-4fab-a2fd-48b43c070371")
 			(effects
@@ -2383,7 +2383,7 @@
 			(uuid "66537fc4-5f81-42e2-add0-2eeb9d06a435")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "665ef887-4df2-4e6e-b55a-a53536a75b65")
 			(effects
@@ -5045,7 +5045,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 0 90)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "7699a4a5-3a81-4378-8f2b-680398b3c85c")
 			(effects
@@ -7704,7 +7704,7 @@
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J5"
-			(at 12.65 -0.1 0)
+			(at 10.95 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "ccda9fe3-979a-40ff-ae3b-6399c406c913")
 			(effects
@@ -8002,7 +8002,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 1.7 360)
+			(at 0 1.7 0)
 			(layer "F.SilkS")
 			(uuid "1ec64ea6-5450-4330-a80f-0b5b0fdda47a")
 			(effects
@@ -8013,7 +8013,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "e0e27a6f-8e34-4be9-a358-51279aaa929a")
 			(effects
@@ -8168,7 +8168,7 @@
 			(uuid "4713cbc8-816e-44a5-ac1b-ca3c9585f0d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "97ade70b-4d9c-4483-a080-111ba092e83f")
 			(effects
@@ -8328,7 +8328,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.9 90)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "0fd5ae51-f9ac-4ec5-9ae3-03b6ace07e95")
 			(effects
@@ -9292,7 +9292,7 @@
 		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "8683b529-ed6f-4512-b2e7-bc78d5d60ceb")
 			(effects
@@ -9303,7 +9303,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 0 2.65 360)
+			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "6c69187b-a6a5-4dc0-a50c-16f5a2fe4eb8")
 			(effects
@@ -9458,7 +9458,7 @@
 			(uuid "14b9dd92-5d68-4bf3-95ff-7adb8db89b7c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4fb964d2-ad08-48ba-9d80-7971934355a5")
 			(effects
@@ -11265,10 +11265,58 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "FUSED\n14.4V"
+		(at 111.7 130 0)
+		(layer "F.SilkS")
+		(uuid "29346bac-e2a0-4bb3-8ba1-e156059194b5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "12V"
 		(at 110.4925 99.02 90)
 		(layer "F.SilkS")
 		(uuid "49e734a1-3edd-4c0d-bd23-d7a1566e936d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "14.4V\nINPUT"
+		(at 133.2 139.3 0)
+		(layer "F.SilkS")
+		(uuid "6108dd9f-88e7-40f5-9339-92128f265181")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 125.65 127.55 0)
+		(layer "F.SilkS")
+		(uuid "8ef1ce27-f478-4f2d-9ffa-774662ab4d20")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "14.4V"
+		(at 109.95 123.6 90)
+		(layer "F.SilkS")
+		(uuid "e6b4b22c-d628-4c5b-8dbc-d6afcc5c995a")
 		(effects
 			(font
 				(size 1.5 1.5)
