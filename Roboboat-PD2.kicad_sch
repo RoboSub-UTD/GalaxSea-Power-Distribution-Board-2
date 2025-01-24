@@ -4627,7 +4627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "88uF"
+		(property "Value" "22uF"
 			(at 195.834 92.202 0)
 			(effects
 				(font
@@ -5293,7 +5293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "88uF"
+		(property "Value" "22uF"
 			(at 200.914 92.202 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "88uF"
+		(property "Value" "22uF"
 			(at 211.074 92.202 0)
 			(effects
 				(font
@@ -9238,7 +9238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "88uF"
+		(property "Value" "22uF"
 			(at 205.994 92.202 0)
 			(effects
 				(font
