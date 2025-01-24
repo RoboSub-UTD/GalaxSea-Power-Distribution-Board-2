@@ -5763,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE LED"
 			(at 200.66 143.764 0)
 			(effects
 				(font
