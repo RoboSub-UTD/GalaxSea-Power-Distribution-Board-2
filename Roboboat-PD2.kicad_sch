@@ -361,22 +361,23 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.762) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -384,7 +385,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -393,6 +394,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -401,7 +411,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -410,15 +420,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -427,43 +429,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1906,12 +1889,6 @@
 		(uuid "12a0bcd8-b589-4239-b89a-778375d1bf6a")
 	)
 	(junction
-		(at 185.42 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16183adf-82dd-4781-a77b-bf74759b2b20")
-	)
-	(junction
 		(at 200.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1924,16 +1901,22 @@
 		(uuid "179e0d1b-a56d-4744-bac5-63b819bda940")
 	)
 	(junction
-		(at 39.37 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "286a11e6-b7f3-4df9-866a-6b2b1e42f187")
-	)
-	(junction
 		(at 254 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df7394a-d5e7-457c-b6b1-858056d322a3")
+	)
+	(junction
+		(at 182.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e4acec1-56b3-4a97-9419-59270c46ada9")
+	)
+	(junction
+		(at 139.7 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31746346-79fb-469e-9533-ce482840d9e3")
 	)
 	(junction
 		(at 203.2 93.98)
@@ -1966,10 +1949,22 @@
 		(uuid "45d3758a-f855-4baa-adcb-ff2cf95fc4b7")
 	)
 	(junction
+		(at 250.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4914aa54-543f-4689-82a8-66f2d891f58e")
+	)
+	(junction
 		(at 209.55 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4976d674-c461-4f9b-b01a-abf8f8acf173")
+	)
+	(junction
+		(at 101.6 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1f7006-bffe-4a1c-b1f7-6a365d663331")
 	)
 	(junction
 		(at 173.99 59.69)
@@ -1982,12 +1977,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53abea2d-a61d-440b-8578-bc8b67ada93d")
-	)
-	(junction
-		(at 139.7 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5587de19-eb82-4b40-bda3-8f99bae4d6cf")
 	)
 	(junction
 		(at 124.46 54.61)
@@ -2006,6 +1995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6df27e54-87a7-45da-b085-596196fb76ac")
+	)
+	(junction
+		(at 39.37 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80c030be-493c-4272-a77d-687c2ac4d28b")
 	)
 	(junction
 		(at 254 114.3)
@@ -2038,6 +2033,12 @@
 		(uuid "a1efd7d3-95fb-4cf2-b5d9-83b4963ef835")
 	)
 	(junction
+		(at 116.84 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87e83d5-6316-4501-91a0-8206af7cf5cf")
+	)
+	(junction
 		(at 185.42 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2056,22 +2057,10 @@
 		(uuid "b3d5e259-0111-40e4-944e-663eec4067cf")
 	)
 	(junction
-		(at 101.6 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6bc1473-6646-4a42-94fa-e181dfb8906a")
-	)
-	(junction
 		(at 210.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9048836-8103-49b5-9215-aaba1f262bb7")
-	)
-	(junction
-		(at 121.92 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb7fb75b-8e8b-45a2-b07d-702837b506e8")
 	)
 	(junction
 		(at 236.22 52.07)
@@ -2110,16 +2099,16 @@
 		(uuid "c96772c5-94c3-42f2-87c3-147ab888d727")
 	)
 	(junction
-		(at 250.19 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc884e15-fe16-42b0-bc72-98e7ae91c156")
-	)
-	(junction
 		(at 146.05 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f2987f-aab4-4e81-9e5d-640f7e233098")
+	)
+	(junction
+		(at 121.92 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28e966d-228d-4978-bf7f-1279b8106212")
 	)
 	(junction
 		(at 205.74 93.98)
@@ -2140,10 +2129,10 @@
 		(uuid "ee10bc7c-53f6-4d97-a8a3-1cc40d36d2eb")
 	)
 	(junction
-		(at 121.92 64.77)
+		(at 107.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3ae30de-2845-4e68-81c5-88c1a22b544e")
+		(uuid "f2c7039b-e93d-4728-91b0-d8d75b0e5b44")
 	)
 	(wire
 		(pts
@@ -2237,6 +2226,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 64.77) (xy 127 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed74b8e-ef12-4161-808b-50acee3c2645")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1069f866-7a40-485d-a57c-d1eb862cd9f2")
+	)
+	(wire
+		(pts
 			(xy 119.38 54.61) (xy 124.46 54.61)
 		)
 		(stroke
@@ -2284,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "190b6b73-2cd8-458c-bb91-501583e33793")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf1f481-d1d8-4af7-8beb-ff40832303cc")
 	)
 	(wire
 		(pts
@@ -2364,16 +2383,6 @@
 			(type dash)
 		)
 		(uuid "285ce18c-3375-4db4-a10e-b904b1fc0db8")
-	)
-	(wire
-		(pts
-			(xy 250.19 59.69) (xy 236.22 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8e5792-cf0c-4eb1-bf49-5c3e1cb655bb")
 	)
 	(wire
 		(pts
@@ -2475,6 +2484,16 @@
 		)
 		(uuid "320fd2cc-5657-4d25-af39-d5daf6ca9b0f")
 	)
+	(wire
+		(pts
+			(xy 250.19 59.69) (xy 259.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cdf3f5-0763-4143-a3a2-049241b95546")
+	)
 	(polyline
 		(pts
 			(xy 222.25 36.83) (xy 284.48 36.83)
@@ -2484,16 +2503,6 @@
 			(type dash)
 		)
 		(uuid "34cee729-1ff1-4d41-b4e4-2edb8339b9df")
-	)
-	(wire
-		(pts
-			(xy 138.43 68.58) (xy 139.7 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ddce45-bf49-4f16-9760-850ef43cd716")
 	)
 	(wire
 		(pts
@@ -2577,13 +2586,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 127 64.77)
+			(xy 121.92 64.77) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "415a4032-d7c8-49ab-a51e-0c37e51523a1")
+		(uuid "44217e37-46cc-4f32-b53b-b336af57da11")
 	)
 	(polyline
 		(pts
@@ -2637,6 +2646,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 27.94) (xy 39.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8c62e4-8a09-4f9d-8bcb-d263786929bf")
+	)
+	(wire
+		(pts
 			(xy 261.62 99.06) (xy 261.62 100.33)
 		)
 		(stroke
@@ -2657,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 121.92 72.39)
+			(xy 116.84 71.12) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2717,16 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 110.49) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6081f560-a4e4-45a1-bfad-6f5ab71d2bf1")
-	)
-	(wire
-		(pts
 			(xy 195.58 90.17) (xy 195.58 93.98)
 		)
 		(stroke
@@ -2737,7 +2746,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 59.69) (xy 196.85 59.69)
+			(xy 116.84 64.77) (xy 121.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64884947-c7f9-4de9-aaf7-331e2f4af1fb")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 182.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2797,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 139.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb032d2-fb5f-4f5b-9030-ade2254dc42d")
-	)
-	(wire
-		(pts
 			(xy 195.58 85.09) (xy 195.58 81.28)
 		)
 		(stroke
@@ -2854,6 +2863,26 @@
 			(type default)
 		)
 		(uuid "751a4495-0d10-4f4f-9746-4dbeb70edb59")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782eeae8-9fe9-4175-9b94-718ce18d31bd")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad9ff61-f272-46d1-93ea-ac010a519fb5")
 	)
 	(wire
 		(pts
@@ -2917,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8319a53b-6cd9-4cd8-9e6c-32d2c69f04ad")
+	)
+	(wire
+		(pts
 			(xy 205.74 81.28) (xy 210.82 81.28)
 		)
 		(stroke
@@ -2957,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 29.21) (xy 43.18 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0e45ce-0d69-47c6-b6e0-98788879d8d7")
-	)
-	(wire
-		(pts
 			(xy 261.62 90.17) (xy 261.62 91.44)
 		)
 		(stroke
@@ -2974,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "8c22258c-de99-4d37-b5b5-e43578fe9095")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce3d0db-b37f-4d12-8c70-19889e45c928")
 	)
 	(wire
 		(pts
@@ -3257,6 +3296,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 29.21) (xy 43.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af90c2e8-6728-40fd-8774-a81b9bc25f46")
+	)
+	(wire
+		(pts
 			(xy 250.19 49.53) (xy 250.19 52.07)
 		)
 		(stroke
@@ -3294,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "b4effa27-0197-4b50-b57e-d0d067e4584f")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b7a4a5-0111-487b-a5ef-07e6233e1988")
 	)
 	(wire
 		(pts
@@ -3367,16 +3426,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 140.97 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05257c6-a34d-46e4-b323-fb67a1666e94")
-	)
-	(wire
-		(pts
 			(xy 195.58 93.98) (xy 200.66 93.98)
 		)
 		(stroke
@@ -3407,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 64.77) (xy 121.92 64.77)
+			(xy 101.6 64.77) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3457,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 140.97 68.58)
+			(xy 138.43 68.58) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3484,16 +3533,6 @@
 			(type default)
 		)
 		(uuid "c99083b6-cf6f-4e31-9f90-d01fd6abdb03")
-	)
-	(wire
-		(pts
-			(xy 173.99 59.69) (xy 185.42 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d38a58-29d7-4d8f-8ab8-f00455c9392a")
 	)
 	(wire
 		(pts
@@ -3557,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 121.92 66.04)
+			(xy 116.84 64.77) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 107.95 110.49)
+			(xy 95.25 110.49) (xy 101.6 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3624,16 +3663,6 @@
 			(type default)
 		)
 		(uuid "dfa6d9b9-0f54-4b39-8391-b3722e6ba4fd")
-	)
-	(wire
-		(pts
-			(xy 121.92 74.93) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe52b81-f0e4-485a-a5f3-9badb888a7d5")
 	)
 	(wire
 		(pts
@@ -3727,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 138.43 60.96)
+			(xy 138.43 60.96) (xy 140.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3737,17 +3766,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 139.7 68.58)
+			(xy 107.95 62.23) (xy 107.95 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8ae5927-4a0a-4f87-b178-3c93aed90a01")
+		(uuid "f8ad762a-ab14-41ed-ad6a-5c0ac01ed180")
 	)
 	(wire
 		(pts
-			(xy 259.08 59.69) (xy 250.19 59.69)
+			(xy 236.22 59.69) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3855,16 +3884,6 @@
 		)
 		(uuid "8e27101a-7332-4024-89db-482267d85e9d")
 	)
-	(text "PGOOD Test Point"
-		(exclude_from_sim no)
-		(at 185.928 53.848 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "a7f2a095-c7f2-4ccd-96e6-4db9e5ec44c2")
-	)
 	(text "14.4V to 12V Buck Converter"
 		(exclude_from_sim no)
 		(at 153.67 20.32 0)
@@ -3912,6 +3931,17 @@
 		)
 		(uuid "1227a90a-0819-462a-8cab-2d00810bfb35")
 	)
+	(label "EN"
+		(at 101.6 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39a8abab-e95e-420b-a22c-d2ccb05ea996")
+	)
 	(label "PGOOD"
 		(at 196.85 59.69 180)
 		(fields_autoplaced yes)
@@ -3924,7 +3954,7 @@
 		(uuid "3a4cf2d4-6cda-4e30-8395-ace0a6636e75")
 	)
 	(label "VCC"
-		(at 110.49 64.77 0)
+		(at 101.6 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4295,73 +4325,6 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10c2fd63-2ccc-4916-a383-72efc3e7e145")
-		(property "Reference" "J4"
-			(at 184.658 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 185.166 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4a7b1f4-581d-4d48-af01-4a12854aac78")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4768,6 +4731,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26ab5e59-abd5-4197-b6ab-910de10a7826")
+		(property "Reference" "TP4"
+			(at 37.338 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 35.56 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aacce868-1df7-4268-8eeb-d976990da4ef")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 236.22 46.99 0)
 		(unit 1)
@@ -5166,73 +5195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 39.37 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "363e1905-871a-464f-ad07-8bf361dc6e61")
-		(property "Reference" "J21"
-			(at 41.148 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 39.116 20.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3e1c3df-677b-46bb-8932-e2c33adb2f01")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 200.66 87.63 0)
 		(unit 1)
@@ -5372,7 +5334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 74.93 0)
+		(at 116.84 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5381,7 +5343,7 @@
 		(dnp no)
 		(uuid "3e35cfab-63b6-4ff3-8d5a-f3c3d43837f7")
 		(property "Reference" "#PWR06"
-			(at 121.92 81.28 0)
+			(at 116.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5352,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 118.872 77.724 0)
+			(at 113.792 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 74.93 0)
+			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,73 +5466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f15287e-c779-4f04-8ab0-079defd14d69")
-		(property "Reference" "J17"
-			(at 101.854 113.4109 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND TP"
-			(at 101.854 111.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75b42832-8f92-42d8-b8a8-a0df1dbc2c0e")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 266.7 132.08 0)
 		(unit 1)
@@ -5632,6 +5527,72 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539c1351-a546-437d-b401-81b6fc26dde3")
+		(property "Reference" "TP3"
+			(at 106.172 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 103.632 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24284863-07df-4528-a22a-af619137ec6e")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6035,73 +5996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 125.73 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ce86cb8-72be-43fd-bdd1-00625404af0b")
-		(property "Reference" "J18"
-			(at 128.27 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 122.174 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 125.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 125.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c6cad5a-1123-4896-8623-fb137d0a731b")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 41.91 0)
 		(unit 1)
@@ -6234,73 +6128,6 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 250.19 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78039ab5-808b-4176-b7f5-3b16a399a093")
-		(property "Reference" "J19"
-			(at 251.968 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 249.936 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 250.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 250.19 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4d68fb0-5d57-4d79-baa4-d1dfc858b22c")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6576,6 +6403,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8931a79d-2c83-4c4b-bf71-1a60f2623ff1")
+		(property "Reference" "TP7"
+			(at 183.388 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 183.388 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122a6b3b-64f1-4aa7-b15f-10e4b3c144a0")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 264.16 52.07 0)
 		(unit 1)
@@ -6637,73 +6530,6 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 242.57 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a8cc4b9-7e80-4864-81d3-2f60ef54673d")
-		(property "Reference" "J22"
-			(at 241.808 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 239.014 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 242.57 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ead4b8c-de27-4bad-a658-ca591b607992")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -6837,73 +6663,6 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 250.19 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "907e5c77-c1d4-4187-ae8a-458206275c1b")
-		(property "Reference" "J20"
-			(at 251.968 43.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PGOOD TP"
-			(at 249.936 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d792da1e-e786-48f0-ba7b-901e15e24b63")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -7444,6 +7203,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a44dbdf0-9741-4ebc-8be4-ac212eae65f9")
+		(property "Reference" "TP6"
+			(at 103.632 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.918 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09ba7a2-cae7-45a7-8a36-1880dfd579e3")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 133.35 68.58 180)
 		(unit 1)
@@ -7574,6 +7399,138 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0ad8369-22e6-4275-ab4d-9f88e6ed00be")
+		(property "Reference" "TP1"
+			(at 250.952 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 250.952 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a34fb2b4-6a8f-4cd5-8455-e0bfa9c3f1b2")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 247.65 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3f49afe-369d-4bc2-87ba-d681bfe50315")
+		(property "Reference" "TP2"
+			(at 243.078 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.078 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da0274fd-dd0e-454f-ae79-a72d7f19fe5f")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7839,6 +7796,72 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdc2e97d-0937-419b-9dcb-55a6d00366e6")
+		(property "Reference" "TP5"
+			(at 245.872 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 244.094 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237791cf-0a5d-4e78-925a-9a12ddfd7704")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9182,7 +9205,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 68.58 0)
+		(at 116.84 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9190,7 +9213,7 @@
 		(dnp no)
 		(uuid "f7b218ce-e112-4cf0-ac43-e13da1a0f1c5")
 		(property "Reference" "C2"
-			(at 116.078 68.072 0)
+			(at 110.998 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9222,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 114.808 70.104 0)
+			(at 109.728 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9231,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 121.92 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9226,7 +9249,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 68.58 0)
+			(at 116.84 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
