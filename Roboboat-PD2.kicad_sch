@@ -14,24 +14,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 0.254 32.004 0)
+			(property "Reference" "U"
+				(at -2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AOZ2379QI"
-				(at -0.127 34.544 0)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "footprints:AOZ2369QI-11"
-				(at -2.54 1.27 0)
+			(property "Footprint" ""
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,7 +40,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -2.54 1.27 0)
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +49,7 @@
 				)
 			)
 			(property "Description" ""
-				(at -2.54 1.27 0)
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -126,7 +126,7 @@
 					)
 				)
 				(pin input line
-					(at 15.24 12.7 180)
+					(at -13.97 -3.81 0)
 					(length 2.54)
 					(name "PGOOD"
 						(effects
@@ -161,10 +161,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 15.24 27.94 180)
+				(pin input line
+					(at -8.89 33.02 270)
 					(length 2.54)
-					(name "NC"
+					(name "AIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,24 +226,6 @@
 						)
 					)
 					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 33.02 270)
-					(length 2.54)
-					(name "AIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9437,9 +9419,6 @@
 		)
 		(pin "25"
 			(uuid "da37e06d-a070-46ca-b7b0-190b7573dc84")
-		)
-		(pin "28"
-			(uuid "e1bf4d5c-1b4d-4412-a5b8-480e7c23dfee")
 		)
 		(instances
 			(project ""
