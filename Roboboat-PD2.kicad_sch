@@ -2227,6 +2227,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f71292-6d21-4365-9f11-d7fc2356057f")
+	)
+	(wire
+		(pts
 			(xy 236.22 52.07) (xy 241.3 52.07)
 		)
 		(stroke
@@ -2257,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 147.32) (xy 196.85 147.32)
+			(xy 179.07 147.32) (xy 186.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 196.85 137.16)
+			(xy 179.07 137.16) (xy 186.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3157,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 147.32) (xy 209.55 154.94)
+			(xy 209.55 147.32) (xy 209.55 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3364,6 +3374,16 @@
 			(type default)
 		)
 		(uuid "c0f7e64c-115f-488a-a84b-d1c130176002")
+	)
+	(wire
+		(pts
+			(xy 191.77 147.32) (xy 196.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c292727b-46e0-49c9-af53-c6bd9c91b314")
 	)
 	(wire
 		(pts
@@ -6213,75 +6233,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 209.55 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64b3171d-0026-4c1e-a737-000c2b9b2e6f")
-		(property "Reference" "R6"
-			(at 205.232 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 204.597 157.353 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 209.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47027ed7-ec4e-4816-85e1-c2af9535a70a")
-		)
-		(pin "2"
-			(uuid "4114847e-88f1-430c-b535-79a123765b11")
-		)
-		(instances
-			(project "Roboboat-PD2"
-				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 129.54 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7217,6 +7168,75 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da8aa6b-308d-4dfa-91a4-ebb0d2b6592f")
+		(property "Reference" "R8"
+			(at 187.706 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 187.071 133.223 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "511c64fc-3c77-47c4-a6e8-50843ef14f62")
+		)
+		(pin "2"
+			(uuid "739c24d8-420c-464e-ba68-27f8c1669525")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8417,6 +8437,75 @@
 			(project "Roboboat-PD2"
 				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caded3c1-aca5-467f-8834-84b5bd10f12c")
+		(property "Reference" "R7"
+			(at 187.706 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 187.071 143.383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfe1a895-efb9-4fee-9ead-ebdf385ad505")
+		)
+		(pin "2"
+			(uuid "040483c1-5ab5-43b4-8550-85b54b13cdf9")
+		)
+		(instances
+			(project "Roboboat-PD2"
+				(path "/9a1496f4-7cef-4d33-8239-9c2f43ceb177"
+					(reference "R7")
 					(unit 1)
 				)
 			)
