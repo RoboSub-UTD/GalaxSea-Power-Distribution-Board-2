@@ -118,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -3.81 0)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "PGOOD"
 					(effects
@@ -153,10 +153,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -8.89 33.02 270)
+			(pin no_connect line
+				(at 15.24 26.67 180)
 				(length 2.54)
-				(name "AIN"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,6 +226,24 @@
 				)
 			)
 			(pin input line
+				(at -8.89 33.02 270)
+				(length 2.54)
+				(name "AIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "EN"
@@ -246,7 +264,7 @@
 			(pin input line
 				(at -13.97 0 0)
 				(length 2.54)
-				(name "PFM"
+				(name "~{PFM}"
 					(effects
 						(font
 							(size 1.27 1.27)

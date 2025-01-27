@@ -126,7 +126,7 @@
 					)
 				)
 				(pin input line
-					(at -13.97 -3.81 0)
+					(at 15.24 12.7 180)
 					(length 2.54)
 					(name "PGOOD"
 						(effects
@@ -161,10 +161,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 33.02 270)
+				(pin no_connect line
+					(at 15.24 26.67 180)
 					(length 2.54)
-					(name "AIN"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,6 +226,42 @@
 						)
 					)
 					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 33.02 270)
+					(length 2.54)
+					(name "AIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2218,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 107.95 62.23)
+			(xy 96.52 62.23) (xy 107.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 116.84 74.93)
+			(xy 116.84 71.12) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 64.77) (xy 116.84 64.77)
+			(xy 96.52 64.77) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 50.8) (xy 195.58 50.8)
+			(xy 173.99 50.8) (xy 196.85 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3903,7 +3939,7 @@
 		(uuid "cd441bcc-2188-4835-adce-2fd3d9acaf33")
 	)
 	(label "VCC"
-		(at 195.58 50.8 180)
+		(at 196.85 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3914,7 +3950,7 @@
 		(uuid "1227a90a-0819-462a-8cab-2d00810bfb35")
 	)
 	(label "EN"
-		(at 101.6 62.23 0)
+		(at 96.52 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3936,7 +3972,7 @@
 		(uuid "3a4cf2d4-6cda-4e30-8395-ace0a6636e75")
 	)
 	(label "VCC"
-		(at 101.6 64.77 0)
+		(at 96.52 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5316,7 +5352,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 74.93 0)
+		(at 116.84 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5325,7 +5361,7 @@
 		(dnp no)
 		(uuid "3e35cfab-63b6-4ff3-8d5a-f3c3d43837f7")
 		(property "Reference" "#PWR06"
-			(at 116.84 81.28 0)
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5370,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 113.792 77.724 0)
+			(at 112.776 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 74.93 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 74.93 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 74.93 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,6 +9455,12 @@
 		)
 		(pin "25"
 			(uuid "da37e06d-a070-46ca-b7b0-190b7573dc84")
+		)
+		(pin "28"
+			(uuid "a3bc4301-5304-478e-82e8-3e7d2efc0831")
+		)
+		(pin "29"
+			(uuid "d5cb9639-ac58-48e7-96ec-84d6310550c9")
 		)
 		(instances
 			(project ""

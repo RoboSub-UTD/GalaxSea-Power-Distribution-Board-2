@@ -134,7 +134,8 @@
 	(net 13 "Net-(D2-A)")
 	(net 14 "Net-(J5-Pin_1)")
 	(net 15 "Net-(U1-TON)")
-	(net 16 "unconnected-(U1-PGOOD-Pad2)")
+	(net 16 "unconnected-(U1-NC-Pad24)")
+	(net 17 "unconnected-(U1-NC-Pad29)")
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "00546679-f910-4e11-9a21-bc019ccd0d03")
@@ -1661,7 +1662,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at -2.7125 0 360)
+			(at -2.7125 0 0)
 			(layer "F.SilkS")
 			(uuid "a10929b1-eb6a-4758-b52a-51a3eb865e6d")
 			(effects
@@ -1672,7 +1673,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "eafc9674-d179-438d-901a-bd23e32eef25")
 			(effects
@@ -1827,7 +1828,7 @@
 			(uuid "5e0b4ef8-4eab-49ce-a4f8-20e91b3820cf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b37d9493-e232-4859-8042-ddc3fe7052e0")
 			(effects
@@ -4955,7 +4956,7 @@
 			(at -2.35 -1.255)
 			(size 0.5 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 16 "unconnected-(U1-PGOOD-Pad2)")
+			(net 10 "/PGOOD")
 			(pinfunction "PGOOD")
 			(pintype "input")
 			(solder_mask_margin 0.102)
@@ -5068,9 +5069,9 @@
 			(at 0.755 -2.35)
 			(size 0.25 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "Net-(U1-AIN)")
-			(pinfunction "AIN")
-			(pintype "input")
+			(net 16 "unconnected-(U1-NC-Pad24)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "f6c8a454-c1b0-45f4-b8eb-d3e97344d426")
 		)
@@ -5108,6 +5109,9 @@
 			(at -1.745 -2.35)
 			(size 0.25 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "Net-(U1-AIN)")
+			(pinfunction "AIN")
+			(pintype "input")
 			(solder_mask_margin 0.102)
 			(uuid "44af622c-4618-43df-8b12-998c48ad56ce")
 		)
@@ -5115,6 +5119,9 @@
 			(at 0.745 -1.75)
 			(size 0.35 0.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 17 "unconnected-(U1-NC-Pad29)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "f9917173-b62b-49fa-8566-74c248f99271")
 		)
@@ -5126,7 +5133,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at -2.75 0 360)
+			(at -2.75 0 0)
 			(layer "F.SilkS")
 			(uuid "89bf7fc6-c543-463f-becb-ef4e5651e0a4")
 			(effects
@@ -5137,7 +5144,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "6e4388f6-4c79-4864-b51d-44bc1874e63c")
 			(effects
@@ -5292,7 +5299,7 @@
 			(uuid "882e8d34-f756-4762-b801-1905b967f458")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bc11bb9d-c673-42c5-b096-b3ba087bea6b")
 			(effects
@@ -15211,12 +15218,12 @@
 		(uuid "f7af085e-518d-4450-9258-1d233a12680c")
 	)
 	(segment
-		(start 143.6 100.1)
-		(end 143.6 100.85)
+		(start 141.45 100.0625)
+		(end 143.5625 100.0625)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "32a80f22-0302-47bd-b153-da9e53003415")
+		(uuid "95f4fd86-4c32-4699-aaea-fd75fa194b13")
 	)
 	(segment
 		(start 143.6 100.85)
@@ -15224,15 +15231,15 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "78e9b9cb-6fec-42fe-ad0c-5a504ce4b3cd")
+		(uuid "eafd1fec-2fbe-47a3-b71e-fd66ab08af37")
 	)
 	(segment
-		(start 141.45 100.0625)
-		(end 143.5625 100.0625)
+		(start 143.6 100.1)
+		(end 143.6 100.85)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "95f4fd86-4c32-4699-aaea-fd75fa194b13")
+		(uuid "fe4239f4-583e-4631-9bec-03886c9ea132")
 	)
 	(segment
 		(start 143.7 102)
